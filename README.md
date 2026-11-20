@@ -54,6 +54,10 @@ Kurikulum belajar digital marketing dengan fokus SEO, berbahasa Indonesia. Disus
 - `templates/`: keyword map (CSV), template audit halaman, laporan keputusan.
 - `scripts/`: skrip Python tanpa dependensi eksternal (`cluster_queries.py`, `check_urls.py`).
 - `references/`: sumber resmi, glosarium, daftar klaim terverifikasi.
+- `skills/`: skill SEO generik untuk agen AI.
+
+## Skill untuk agen AI
+Folder `skills/seo-playbook-id/` berisi skill siap pakai (Claude Code, Hermes Agent, dan agen sejenis). Cara pasang di `skills/README.md`.
 
 ## Cara pakai
 1. Mulai dari `01-basic/01-apa-itu-digital-marketing.md`, urut sampai rencana belajar di tiap level.
