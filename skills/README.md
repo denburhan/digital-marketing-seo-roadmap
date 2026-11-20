@@ -4,6 +4,7 @@ Skill siap pakai untuk agen AI (format `SKILL.md` dengan frontmatter `name` dan 
 
 ## Daftar
 - `seo-playbook-id/`: riset keyword dan intent, audit halaman, diagnosis halaman tidak terindeks, dan penilaian klaim AI Search. Berbahasa Indonesia.
+- `seo-playbook/`: versi Inggris dari skill yang sama (English version of the same skill).
 
 ## Pasang
 
@@ -11,12 +12,14 @@ Claude Code (skill pribadi):
 ```bash
 git clone https://github.com/denburhan/digital-marketing-seo-roadmap.git
 mkdir -p ~/.claude/skills
-cp -r digital-marketing-seo-roadmap/skills/seo-playbook-id ~/.claude/skills/
+cp -r digital-marketing-seo-roadmap/skills/seo-playbook-id ~/.claude/skills/   # Indonesia
+cp -r digital-marketing-seo-roadmap/skills/seo-playbook ~/.claude/skills/      # English
 ```
 
 Hermes Agent:
 ```bash
-cp -r digital-marketing-seo-roadmap/skills/seo-playbook-id ~/.hermes/skills/
+cp -r digital-marketing-seo-roadmap/skills/seo-playbook-id ~/.hermes/skills/   # Indonesia
+cp -r digital-marketing-seo-roadmap/skills/seo-playbook ~/.hermes/skills/      # English
 ```
 
 Agen lain: salin folder `seo-playbook-id` ke direktori skill agen itu, atau tempel isi `SKILL.md` sebagai instruksi sistem.

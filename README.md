@@ -3,15 +3,17 @@
 # Digital Marketing dan SEO
 ### Dari Basic sampai Expert, berbahasa Indonesia
 
+Tersedia juga dalam bahasa Inggris: [README.en.md](README.en.md).
+
 Kurikulum belajar yang tidak mengarang angka, tidak menjual trik, dan setiap klaim taktiknya dicek ke dokumentasi resmi.
 
 [![Lisensi konten](https://img.shields.io/badge/konten-CC%20BY%204.0-1f6feb?style=flat-square)](LICENSE)
 [![Lisensi kode](https://img.shields.io/badge/kode-MIT-2ea043?style=flat-square)](LICENSE)
-[![Bahasa](https://img.shields.io/badge/bahasa-Indonesia-d73a49?style=flat-square)](#)
+[![Bahasa](https://img.shields.io/badge/bahasa-Indonesia%20%7C%20English-d73a49?style=flat-square)](README.en.md)
 [![Modul](https://img.shields.io/badge/modul-30-8250df?style=flat-square)](#peta-belajar)
 [![Skill agen AI](https://img.shields.io/badge/skill-agen%20AI-f0883e?style=flat-square)](skills/)
 
-[**Mulai belajar**](01-basic/01-apa-itu-digital-marketing.md) &nbsp;|&nbsp; [**Pasang skill**](skills/README.md) &nbsp;|&nbsp; [**Klaim terverifikasi**](references/klaim-ai-search-terverifikasi.md) &nbsp;|&nbsp; [**Portfolio**](#dibuat-oleh)
+[**English**](README.en.md) &nbsp;|&nbsp; [**Mulai belajar**](01-basic/01-apa-itu-digital-marketing.md) &nbsp;|&nbsp; [**Pasang skill**](skills/README.md) &nbsp;|&nbsp; [**Klaim terverifikasi**](references/klaim-ai-search-terverifikasi.md) &nbsp;|&nbsp; [**Gratis vs Pro**](PRO.md) &nbsp;|&nbsp; [**Portfolio**](#dibuat-oleh)
 
 </div>
 
@@ -102,6 +104,7 @@ Strategi dan skala: AI Search, topical authority, keputusan, otomasi.
 | [`templates/`](templates) | Keyword and intent map (CSV), template audit halaman, laporan keputusan |
 | [`scripts/`](scripts) | `cluster_queries.py` (kelompokkan query) dan `check_urls.py` (status HTTP, redirect, noindex). Python 3, tanpa dependensi |
 | [`references/`](references) | Sumber resmi, glosarium, daftar klaim terverifikasi |
+| [`en/`](en) | Terjemahan Inggris seluruh modul, template, dan referensi |
 | [`skills/`](skills) | Skill siap pakai untuk agen AI |
 
 Contoh pakai skrip:
@@ -113,7 +116,7 @@ python scripts/check_urls.py urls.txt
 
 ## Skill untuk agen AI
 
-Folder [`skills/seo-playbook-id`](skills/seo-playbook-id/SKILL.md) berisi ringkasan prosedur kerja SEO dalam format `SKILL.md`. Cocok untuk Claude Code, Hermes Agent, dan agen sejenis.
+Folder [`skills/seo-playbook-id`](skills/seo-playbook-id/SKILL.md) (Indonesia) dan [`skills/seo-playbook`](skills/seo-playbook/SKILL.md) (English) berisi ringkasan prosedur kerja SEO dalam format `SKILL.md`. Cocok untuk Claude Code, Hermes Agent, dan agen sejenis.
 
 ```bash
 git clone https://github.com/denburhan/digital-marketing-seo-roadmap.git
@@ -123,6 +126,9 @@ cp -r digital-marketing-seo-roadmap/skills/seo-playbook-id ~/.claude/skills/
 Langkah untuk agen lain ada di [`skills/README.md`](skills/README.md).
 
 ---
+
+## Gratis dan Pro
+Repo ini adalah versi gratis dan terbuka. Versi Pro berbayar sedang direncanakan, **belum tersedia**, tanpa harga atau tanggal rilis. Batas keduanya ada di [`PRO.md`](PRO.md).
 
 ## Dibuat oleh
 

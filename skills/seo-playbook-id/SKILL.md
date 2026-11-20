@@ -75,4 +75,4 @@ Bahasa Indonesia, tanpa em dash atau en dash.
 - `references/sumber-resmi.md`
 - `references/glosarium.md`
 - `templates/audit-halaman.md`, `templates/keyword-intent-map.csv`, `templates/laporan-keputusan.md`
-- `scripts/cluster_queries.py`, `scripts/check_urls.py` (Python 3, tanpa dependensi)
+- `scripts/cluster_queries.py` (opsi --lang id, en, both), `scripts/check_urls.py` (Python 3, tanpa dependensi)
