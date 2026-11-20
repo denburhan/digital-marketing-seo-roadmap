@@ -1,5 +1,11 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Digital Marketing and SEO curriculum: 30 modules from Basic to Expert" width="100%">
+
+</div>
+
+<div align="center">
+
 # Digital Marketing and SEO
 ### From Basic to Expert
 

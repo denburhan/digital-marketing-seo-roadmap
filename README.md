@@ -1,5 +1,11 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Kurikulum Digital Marketing dan SEO: 30 modul dari Basic sampai Expert" width="100%">
+
+</div>
+
+<div align="center">
+
 # Digital Marketing dan SEO
 ### Dari Basic sampai Expert, berbahasa Indonesia
 
